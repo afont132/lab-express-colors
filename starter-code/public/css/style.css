@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(245, 245, 245);
+  margin: 0 auto;
+  width: 100%;
+}
+
+.color-wrap {
+  width: 80%;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.key {
+  display: inline-block;
+}
+
+li {
+  border: 1px solid black;
+  width: 24%;
+}
+
+ul {
+  list-style: none;
+}

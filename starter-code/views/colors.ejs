@@ -1,0 +1,13 @@
+<h2> Colors </h2>
+
+  <div class="color-wrap">
+     <ul class="flex">
+        <% colorList.forEach((oneColor) => { %>
+          <li>
+            <p class="key"> <%= oneColor.keyword %> </p>
+            <p class="key"> <%= oneColor.hex %> </p>
+            <p class="key"> <%= oneColor.category %> </p>
+          </li>
+        <% }) %>
+      </ul>
+  </div>

@@ -5,23 +5,41 @@ body {
 }
 
 .color-wrap {
-  width: 80%;
+
 }
 
 .flex {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  padding-right: 50px;
 }
 
 .key {
   display: inline-block;
-}
-
-li {
-  border: 1px solid black;
-  width: 24%;
+  padding-left: 50px;
 }
 
 ul {
   list-style: none;
+  justify-content: space-between;
+}
+
+li {
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: rgba(219, 219, 219, 0.56) 0px 3px 8px 0px;
+  width: 20%;
+  height: 140px;
+  margin-bottom: 50px;
+  margin-right: 1px;
+}
+
+.colorBox {
+  border-bottom: 1px solid black;
+
+}
+
+.hexColor {
+  background-color: 
 }

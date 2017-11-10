@@ -30,16 +30,13 @@ li {
   border-radius: 6px;
   box-shadow: rgba(219, 219, 219, 0.56) 0px 3px 8px 0px;
   width: 20%;
-  height: 140px;
+  height: 200px;
   margin-bottom: 50px;
   margin-right: 1px;
 }
 
 .colorBox {
   border-bottom: 1px solid black;
-
-}
-
-.hexColor {
-  background-color: 
+  height: 100px;
+  border-radius: 6px;
 }

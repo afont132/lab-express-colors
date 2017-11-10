@@ -4,9 +4,8 @@
      <ul class="flex">
         <% colorList.forEach((oneColor) => { %>
           <li>
-            <div class="colorBox">
-              <p> <%= oneColor.hex %> </p>
-            </div>
+            <div class="colorBox" style= "background-color: <%= oneColor.hex %>"
+             ></div>
 
             <div>
               <p class="key"> Color: <b><%= oneColor.keyword %></b> </p>

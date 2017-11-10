@@ -39,4 +39,5 @@ li {
   border-bottom: 1px solid black;
   height: 100px;
   border-radius: 6px;
+  box-shadow: rgba(219, 219, 219, 0.56) 0px 3px 8px 0px;
 }
